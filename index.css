@@ -1,0 +1,27 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1 {
+  margin: 0;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-size: 90px;
+}
+
+.heading p {
+  width: 50%;
+  color: white;
+  line-break: auto;
+}
